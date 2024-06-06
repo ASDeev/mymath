@@ -11,7 +11,7 @@ func Max(x, y float64) float64 {
 }
 
 func Yn(x, y float64) float64 {
-	return math.Yn(x, y)
+	return math.Pow(x, y)
 }
 
 func Sqrt(x float64) float64 {
