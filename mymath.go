@@ -2,27 +2,26 @@ package mymath
 
 import "math"
 
-// Sqrt вычисляет квадратный корень из числа и возвращает результат в виде int
-func Sqrt(x float64) int {
-    return int(math.Sqrt(x))
+func Sqrt(x float64) float64 {
+	return math.Sqrt(x)
 }
 
-// Abs возвращает абсолютное значение числа
-func Abs(x int) int {
-    return int(math.Abs(float64(x)))
+func Ceil(x float64) float64 {
+	return math.Ceil(x)
 }
 
-// Max возвращает максимальное значение из двух чисел
-func Max(x, y int) int {
-    return int(math.Max(float64(x), float64(y)))
+func Floor(x float64) float64 {
+	return math.Floor(x)
 }
 
-// Min возвращает минимальное значение из двух чисел
-func Min(x, y int) int {
-    return int(math.Min(float64(x), float64(y)))
+func Pow(x, y float64) float64 {
+	return math.Pow(x, y)
 }
 
-// Round возвращает ближайшее целое число к данному числу с плавающей запятой
-func Round(x float64) int {
-    return int(math.Round(x))
+func Max(x, y float64) float64 {
+	return math.Max(x, y)
+}
+
+func Min(x, y float64) float64 {
+	return math.Min(x, y)
 }
