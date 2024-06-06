@@ -8,12 +8,12 @@ func Abs(x float64) float64 {
 }
 
 // Acos returns the arccosine, in radians, of x.
-func Acos(x float64) float64 {
+func Cos(x float64) float64 {
 	return math.Acos(x)
 }
 
 // Asin returns the arcsine, in radians, of x.
-func Asin(x float64) float64 {
+func Sin(x float64) float64 {
 	return math.Asin(x)
 }
 
